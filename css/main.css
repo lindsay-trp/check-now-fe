@@ -1,0 +1,22 @@
+:root {
+    --accent-color: yellow;
+}
+
+.hed .hed-highlight {
+    color: var(--accent-color);
+    font-weight: bold;
+    display: inline-block;
+}
+
+.privacy-notice {
+    font-weight: bold;
+}
+
+.hed-highlight::after {
+    content: '';
+    display: block;
+    margin-top: 5px;
+    height: 5px;
+    width: 100%;
+    background-color: var(--accent-color);
+}
